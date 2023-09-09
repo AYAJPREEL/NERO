@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Arial,  sans-serif;
+    background-image: url('../Images/photo_2023-08-28_20-59-46.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  
+}
+
+.cont{
+    width: 420px;
+    border: 2px solid rgba(255, 255, 255,.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    backdrop-filter: blur(20px);
+    background:transparent;
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+ 
+
+}
+.cont h1{
+    font-size: 36px;
+    text-align: center;
+}
+.input_box{
+    width: 100%;
+    height: 50%;
+    margin: 30px 0;   
+}
+.input_box input{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255,.2);
+    border-radius: 40px;
+    padding: 20px 45px 20px 20px;
+}
+.input_box input::placeholder{
+    color: #fff;
+
+}
+.forget-memmber{
+    display: flex;
+    font-size: 14.5px;
+    justify-content: space-between;
+    margin:-15px 0 15px;
+}
+.forget-memmber label input{
+    accent-color: #fff;
+    margin-right: 3px;
+}
+.forget-memmber a{
+    color: #fff;
+    text-decoration: none;
+}
+.forget-memmber a:hover{
+    text-decoration: underline;
+}
+.btn{
+    width: 100%;
+    height: 40px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    cursor: pointer;
+    font-size: 18px;
+    color: #333;
+    font-weight: 600;
+}
+.regester-link{
+    text-align: center;
+    font-size: 14.5px;
+    margin: 20px 0 15px;
+}
+.regester-link p a{
+    color: #fff;
+    text-decoration: underline;
+    font-weight: 600;
+}

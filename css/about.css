@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+}
+body{
+    font-family: Arial,  sans-serif;
+    background-image: url('../Images/photo_2023-08-28_20-59-46.jpg');
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+ 
+}
+.me{
+    color:#e8c012;
+     
+ }
+.all{
+    display: block;
+    width: 100%;
+    height: 800px;
+    background-color:#000000c7;
+}
+
+.nav{
+    background-color: rgb(51, 50, 50);
+    display: flex; 
+    width: 100%;
+    min-width: 600px;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+    background: transparent;
+}
+nav span{
+    color:#e8c012;
+    font-size: 50px;
+    font-weight: bolder;
+}
+nav a{
+    text-decoration: none;
+    font-size: 25px;
+    position: relative;
+   
+    text-transform: capitalize;
+    color: #fff;
+
+}
+nav a::before{
+    position: absolute;
+    width: 0;
+    content: '';
+    left: 0;
+    height: 3px;
+    background-color: rgb(3, 3, 3);
+    bottom: -7px;
+    transition: 0.5s;
+}
+nav a:hover{
+    font-size: 35px;
+    color:#e8c012;
+    cursor: pointer;
+}
+nav a:hover::before{
+    width: 100%;
+
+}
+.about{
+   
+    font-weight: bold;
+    bottom: -5px;
+    font-size: 45px;
+   text-align: center;
+    color: #fff;
+    margin-top: 100px;
+}
+.about1{
+   
+    width: fit-content;
+    padding: 10px;
+    color: #fff;
+    text-align:center;
+    line-height: 32px;
+    font-size: 23px;
+    margin-top: 30px;
+    margin-left: 300px;
+}
+.about1 span{
+    color: #e8c012;
+   font-weight: bold;
+}
+.but{
+    background-color:#e8c012;
+    font-size: 19px;
+    padding: 10px;
+    border-radius: 15px;
+    margin-left: 610px;
+    margin-top: 10px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.but a{
+    text-decoration: none;
+    color: black;
+}
+footer{
+    width:100%;
+    height: 220px;
+    background-color: rgb(30, 30, 30);
+    margin-top: 370px;
+    padding: 35px;
+}
+.foot{
+    padding-left: 80px;
+    padding-top: 10px;
+    display: flex;
+    color: #fff;
+   
+}

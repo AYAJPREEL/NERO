@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+}
+body{
+    font-family: Arial,  sans-serif;
+    background-image: url('../Images/photo_2023-08-28_20-59-46.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.all{
+    display: block;
+    width: 100%;
+    height: 800px;
+    background-color:#000000c7;
+}
+.nav{
+    background-color: rgb(51, 50, 50);
+    display: flex; 
+    width: 100%;
+    min-width: 600px;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+    background: transparent;
+}
+nav span{
+    color:#e8c012;
+    font-size: 50px;
+    font-weight: bolder;
+}
+nav a{
+    text-decoration: none;
+    font-size: 25px;
+    position: relative;
+   
+    text-transform: capitalize;
+    color: #fff;
+
+}
+nav a::before{
+    position: absolute;
+    width: 0;
+    content: '';
+    left: 0;
+    height: 3px;
+    background-color: rgb(3, 3, 3);
+    bottom: -7px;
+    transition: 0.5s;
+}
+.me{
+    color:#e8c012;
+     
+ }
+nav a:hover{
+    font-size: 35px;
+    color:#e8c012;
+    cursor: pointer;
+}
+nav a:hover::before{
+    width: 100%;
+
+}
+.fashion{
+    text-align: center;
+    text-decoration: wavy;
+    font-size: 45px;
+    color: #fff;
+    margin-top: 120px;
+}
+.quote{
+    text-align: center;
+    color: #fff;
+    margin-top: 13px;
+    font-size:20px ;
+}
+footer{
+    width:100%;
+    height: 180px;
+    background-color: rgb(30, 30, 30,62%);
+    margin-top: 200px;
+    padding: 25px;
+}
+.foot{
+    padding-left: 310px;
+    padding-top: 10px;
+    display: flex;
+    color: #fff;
+   
+}
+
+footer a{
+    text-decoration: none;
+    color: #fff;
+}
+.legal{
+    margin-top: -10px ;
+    margin-left:-64px;
+    padding: 10px;
+}
+.legal ul p{
+    padding-bottom: 10px;
+    font-size: 17px;
+}
+.legal ul li{
+    list-style: none;
+    padding-top: 9px;
+    list-style: none;
+    font-size:11px ;
+}
+.social{
+    margin-top: 3px ;
+    margin-left:70px;
+    padding: 30px;
+}
+.social p{
+    padding-bottom: 15px;
+    font-size: 17px;
+}
+.social a{
+    font-size:15px;
+    padding-right: 14px;
+    padding-left: 2px;
+}
+.social A:hover{
+    color: #e8c012;
+}
+.center ul li{
+    padding-top: 9px;
+    list-style: none;
+    padding-left: -1px;
+    font-size:11px ;
+}
+.center ul p{
+    padding-bottom: 10px;
+    font-size: 17px;
+}
+.serv ul li{
+    padding-top: 9px;
+    list-style: none;
+    padding-left: -4px;
+    font-size:11px ;
+}
+.center{
+    margin-left: 110px;
+}
+.serv{
+    margin-left: 60px;
+}
+.serv ul p{
+    padding-bottom: 10px;
+    font-size: 17px;
+}
